@@ -1,22 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - the main function
- * @ch  - an integer holding variable
- * Return 0  - returns 0 to show the end
+ * main - function
+ * Return: 0
  */
+
 int main(void)
 {
-int ch;
-for (ch = '_'; ch <= 'p'; ch = ch + 17)
-putchar(ch);
-for(ch = 'u'; ch >= 't'; ch--)
-putchar(ch);
-for(ch = 'c'; ch <= 'h'; ch = ch + 5)
-putchar(ch);
-for(ch = 'a'; ch <= 'r'; ch = ch + 17)
-putchar(ch);
-putchar('\n');
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+
 }
+
